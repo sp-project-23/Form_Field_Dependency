@@ -14,7 +14,7 @@ foreach( $cities as $key => $val )
         $cities = explode(',', $val);
         $i = 0;
         for($i=0;$i<count($cities);$i++){            
-            echo "<option value='0'>".$cities[$i]."</option>";           
+            echo "<option value='$i'>".$cities[$i]."</option>";           
         }
     }
 }
