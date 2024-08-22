@@ -20,26 +20,4 @@ foreach( $cities as $key => $val )
 }
 echo "</select>";
 
-// if($state=="0"){
-//     echo "<select name='city' class='form-control'>";
-//     echo "<option >--Select city--</option>";
-//     echo "<option value='0'>Kolkata</option>";
-//     echo "<option value='1'>Asansol</option>";
-//     echo "</select>";
-// }
-// elseif($state=="1"){
-//     echo "<select name='city' class='form-control'>";
-//     echo "<option >--Select city--</option>";
-//     echo "<option value='0'>Surat</option>";
-//     echo "<option value='1'>Amedabad</option>";
-//     echo "</select>";
-// }
-// else{
-//     echo "<select name='city' class='form-control'>";
-//     echo "<option >--Select city--</option>";
-//     echo "<option value='0'>Mumbai</option>";
-//     echo "<option value='1'>Pune</option>";
-//     echo "</select>";
-// }
-
 ?>
